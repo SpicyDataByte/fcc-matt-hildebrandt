@@ -1,6 +1,5 @@
 .venv
 scratch
-data
 __pycache__
 output
 archive
