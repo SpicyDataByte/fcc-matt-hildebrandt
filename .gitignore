@@ -1,0 +1,4 @@
+.venv
+scratch
+data
+__pycache__
