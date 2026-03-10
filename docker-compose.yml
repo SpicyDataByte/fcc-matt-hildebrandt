@@ -1,0 +1,10 @@
+  services:
+    etl:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      volumes:
+        - ./output:/app/output  
+        - ./data:/app/data       
+      container_name: etl-pipeline
+      command: python main.py
